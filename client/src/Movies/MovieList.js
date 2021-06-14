@@ -22,6 +22,7 @@ function MovieDetails(props) {
       <div className="movie-metascore">
         Metascore: <strong>{metascore}</strong>
       </div>
+      <Link to='./movies/:id'></Link>
     </div>
   );
 }
